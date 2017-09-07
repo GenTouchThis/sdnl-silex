@@ -1,0 +1,83 @@
+{% extends "layout.html.twig" %}
+
+{% block header %}
+	<header class="header header-inverse h-fullscreen p-0 bg-primary overflow-hidden" style="background-image: url('{{asset('images/background-001.jpg')}}')">
+			<div class="container text-center">
+
+				<div class="row h-full">
+					<div class="col-12 col-lg-8 offset-lg-2 align-self-center pt-10">
+						<img  src="{{asset('images/sdnl-50.png')}}" alt="..." data-aos="fade-up" data-aos-offset="0">
+						<h4 data-aos="fade-up" data-aos-offset="0">1968-2018</h4>
+						<img  src="{{asset('images/logo-sdnl.png')}}" alt="..." data-aos="fade-up" data-aos-offset="0">
+						<div class="pt-20">
+							<a class="btn btn-lg btn-outline btn-white w-220 ml-8 hidden-sm-down" href="#" data-scrollto="section-features" data-aos="fade-up" data-aos-offset="0">Mensaje del Presidente</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</header>
+{% endblock %}
+
+{% block content %}
+	<section class="section bg-grey">
+		<div class="container">
+			<div class="row gap-y justify-content-center">
+				<header class="section-header">
+			        <small>Sociedad de Dermatología de Nuevo León A.C.</small>
+			        <h2>Mensaje del Presidente</h2>
+			        <hr>
+			    </header>
+			</div>
+			<div class="row gap-y justify-content-center">
+				<div class="col-4 text-center">
+					<img src="{{asset('images/leal.jpg')}}" class="img-fluid img-circle overflow-hidden" data-aos="fade-up">
+				</div>
+			</div>
+			<div class="row gap-y">
+				<div class="col-12 col-lg-6 px-50">
+					<p>
+						Es para mí un gran privilegio el poder servir por los próximos 2 años en la Presidencia de nuestra querida Sociedad de Dermatología de Nuevo León. Antes que nada quiero agradecerles a todos y cada uno de ustedes por la oportunidad y la confianza que me brindaron al permitirme desempeñar tan digno cargo.
+					</p>
+					<p>
+						Vivimos tiempos de incertidumbre y grandes retos; pero también de grandes oportunidades.  Con toda la información y la tecnología disponibles, se vuelve imprescindible contar con programas continuos de educación médica dermatológica de calidad. Siendo Monterrey referencia en servicios médicos de clase mundial, los Dermatólogos no podemos más que estar por encima de los retos que se nos presentan.
+					</p>
+					<p>
+						Los honorables miembros de la mesa directiva del 2017 a 2019 y un servidor, hemos preparado un ambicioso programa académico y cultural que esperamos sea tan o más enriquecedor de lo que hemos previsto.  Tenemos preparados una veintena de sesiones académicas, todas ellas contando con la participación de al menos un profesor con reconocimiento internacional, todos ellos autores de múltiples artículos científicos, la mayoría autores de libros o capítulos científicos y profesores de posgrado de alguna rama de nuestra especialidad.
+					</p>
+					<p>
+						Los eventos culturales, contendrán también una parte académica científica, continuaremos con la tradición  de la presentación de mini casos por parte de los residentes de ambas escuelas de postgrado en Dermatológica en Nuevo León , el HU y el IMSS; agregaremos para estimular a los residentes un concurso de “ Cuál es su diagnóstico”; también se evaluaran los trabajos de ingreso a nuestra sociedad, ambas evaluaciones contarán con un incentivo para los residentes y dermatólogos jóvenes que se dará a conocer más adelante. Trataremos también, de incentivar las publicaciones científicas entre los miembros activos de nuestra asociación.
+					</p>
+					<p>
+						Invitamos además a todos los colegas miembros activos de la SDNL a que presenten sus casos interesantes o perlas diagnósticas o terapéuticas en las sesiones, designaremos un tiempo breve para estas presentaciones después de los mini casos.
+					</p>
+				</div>
+				<div class="col-12 col-lg-6 px-50">
+					<p>
+						Continuarán las sesiones conjuntas con la AMD, y se incorporaran también sesiones conjuntas con la SMD, donde los aspirantes podrán ingresar a una de estas dos asociaciones al mismo tiempo y con el mismo trabajo de ingreso que a la SDNL, en cada una de las sesiones respectivas.
+					</p>
+					<p>
+						Los reconocimientos a nuevos miembros y los incentivos a los concursos, se entregarán junto con el homenaje a uno de nuestros distinguidos miembros en la sesión cultural especial del día del Médico.<br>
+						Además de los puestos habituales de la mesa directiva, me he permitido nombrar algunos puestos que considero pertinentes a la situación actual para el adecuado funcionamiento de nuestra sociedad. Como los comités de honor y justicia y de colegiación. Además de roles específicos dentro del comité científico, como admisiones y Congreso 2019, así como grupos de trabajo dentro del mismo comité científico en las diversas subespecialidades o áreas de interés de la Dermatología como: psoriasis, Dermatología cosmética, cirugía dermatológica, fototerapia y demoscopia.
+					</p>
+					<p>
+						Culminaremos el bienio con la organización del magno evento: Congreso Bienal de Dermatología Monterrey 2019 que se llevará acabo del 15 al 18 de Marzo del 2019, evento para el cual ya se tienen invitados algunos profesores de reconocido prestigio mundial.<br>
+					</p>
+					<p>
+						Agradeciendo nuevamente la oportunidad de estar al frente de la mesa directiva de la SDNL, les reitero la seguridad de todo mi esfuerzo y pasión en pro del engrandecimiento de la Dermatología Neolonesa y del fortalecimiento de los lazos de unión entre todos nosotros, sus agremiados.<br>
+						Sinceramente,
+					</p>
+					<p>
+						<strong>Dr. Héctor Guillermo Leal Silva</strong><br>
+						<i>Presidente, Sociedad de Dermatología de Nuevo León, AC. Bienio 2017-2019</i>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}
+{% block js %}
+	<script type="text/javascript">
+	$('#mainModal').modal('show');
+	</script>
+{% endblock %}

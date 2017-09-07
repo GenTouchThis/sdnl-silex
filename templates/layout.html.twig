@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Sociedad de Dermatología de Nuevo León A.C.</title>
+		<meta name="description" content="Sociedad de Dermatología de Nuevo León" />
+		<meta name="keywords" content="sdnl,nuevo león,Sociedad de Dermatología de Nuevo León" />
+		<meta name="author" content="warptech.mx" />
+		<meta http-equiv="Last-Modified" content="Thursday, 4-Feb-16 00:15:00 GMT" />
+		<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="Mon, 26 Jun 1997 05:00:00 GMT" />
+
+		<title>Trello</title>
+
+		<!-- Styles -->
+		<link href="{{asset('css/core.min.css')}}" rel="stylesheet">
+		<link href="{{asset('css/thesaas.min.css')}}" rel="stylesheet">
+		<link href="{{asset('css/style.css')}}" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:400|Poppins:400,400i,600,700" rel="stylesheet">
+		<link href="{{asset('css/main.css')}}" rel="stylesheet">
+
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" href="{{asset('images/favicon.png')}}">
+		<link rel="icon" href="{{asset('images/favicon.png')}}">
+	</head>
+
+	<body>
+
+		<!-- Topbar -->
+		<nav class="topbar topbar-inverse topbar-expand-md topbar-sticky">
+			<div class="container">
+
+				<div class="topbar-left">
+					<button class="topbar-toggler">&#9776;</button>
+					<a class="topbar-brand" href="{{url('inicio')}}">
+						<img class="logo-default" src="{{asset('images/sdnl-nav-dark.png')}}" alt="logo">
+						<img class="logo-inverse" src="{{asset('images/sdnl-nav-light.png')}}" alt="logo">
+					</a>
+				</div>
+
+				<div class="topbar-right">
+					<ul class="topbar-nav nav">
+						<li class="nav-item"><a class="nav-link {% if active == 'inicio' %}active{% endif %}" href="./">Inicio</a></li>
+						<li class="nav-item"><a class="nav-link {% if active == 'acerca' %}active{% endif %}" href="{{url('acerca')}}">Acerca de SDNL</a></li>
+						<li class="nav-item"><a class="nav-link {% if active == 'historia' %}active{% endif %}" href="{{url('historia')}}">Historia SDNL</a></li>
+						<li class="nav-item"><a class="nav-link {% if active == 'mesa-directiva' %}active{% endif %}" href="{{url('mesa-directiva')}}">Mesa Directiva</a></li>
+						<li class="nav-item"><a class="nav-link {% if active == 'profesores' %}active{% endif %}" href="{{url('profesores')}}">Profesores</a></li>
+						<li class="nav-item"><a class="nav-link {% if active == 'eventos' %}active{% endif %}" href="{{url('eventos')}}">Eventos</a></li>
+						<li class="nav-item"><a class="nav-link {% if active == 'actividades' %}active{% endif %}" href="{{url('actividades')}}">Actividades</a></li>
+						<li class="nav-item"><a class="nav-link {% if active == 'contacto' %}active{% endif %}" href="{{url('contacto')}}">Contacto</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+		<!-- END Topbar -->
+
+		<!-- Header -->
+		{% block header %}
+		{% endblock %}
+		<!-- END Header -->
+
+		<!-- Main container -->
+		<main class="main-content">
+		{% block content %}{% endblock %}
+		</main>
+		<!-- END Main container -->
+		<a class="scroll-top" href="#"><i class="fa fa-angle-up"></i></a>
+		<!-- Footer -->
+		<footer class="site-footer">
+			<div class="container">
+				<div class="row gap-y align-items-center">
+					<div class="col-12 col-lg-1">
+						<p class="text-center text-lg-left">
+							<a href="{{url('inicio')}}"><img class="logo-default" src="{{asset('images/sdnl-nav-dark.png')}}" alt="logo"></a>
+						</p>
+					</div>
+
+					<div class="col-12 col-lg-11">
+						<ul class="nav nav-primary nav-hero">
+							<li class="nav-item">
+								<a class="nav-link" href="./">Inicio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="{{url('acerca')}}">Acerca de sdnl</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="{{url('historia')}}">Historia</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="{{url('mesa-directiva')}}">Mesa Directiva</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="{{url('profesores')}}">Profesores</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="{{url('eventos')}}">Eventos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="{{url('actividades')}}">Actividades</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="{{url('contacto')}}">Contacto</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- END Footer -->
+		<!-- Modal -->
+		<div class="modal fade" id="mainModal" tabindex="-1" role="dialog" aria-labelledby="mainModalTitle" aria-hidden="true">
+			 <div class="modal-dialog modal-lg" role="document">
+			 	<div class="modal-content">
+			    	<div class="modal-header bg-teal text-left">
+			    		<i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+			        	<strong>Aviso Importante</strong>
+			        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			        		<span aria-hidden="true">&times;</span>
+			        	</button>
+			    	</div>
+			      	<div class="modal-body">
+			      		<h5>
+			      			REQUISITOS DE INGRESO | Agosto 3, 2017
+			      		</h5>
+						<p>
+							<strong>Academia Mexicana de Dermatología A.C. / Sociedad de Dermatología de Nuevo León A.C.<br/>
+							Sesión Conjunta.</strong><br/>
+						</p>
+						<div class="alert alert-success">
+							<strong>Se puede ingresar a una o ambas sociedades presentando un solo trabajo de ingreso.</strong>
+						</div>
+						<p><strong>DOCUMENTACION REQUERIDA PARA AMBAS FORMAS DE INGRESO</strong></p>
+						<ul>
+							<li>Carta solicitud de ingreso dirigida al presidente(s) de la Sociedad(es) a la(s) que desea ingresar (una por Sociedad).</li>
+							<li>Currículo breve del solicitante (Dos cuartillas aproximadamente)</li>
+							<li>Dos cartas aval de miembros numerarios o vitalicios de la AMD y/o de la SDNL.</li>
+							<li>Titulo de Médico Cirujano inscrito ante la Dirección General de Profesiones de la SEP</li>
+							<li>Cédula profesional y cédula de especialista</li>
+							<li>Diploma de la Especialidad, avalado por la institución correspondiente y/o la Universidad que dio el posgrado</li>
+							<li>Certificación vigente expedida por el Consejo Mexicano de Dermatología</li>
+						</ul>
+						<div class="well">
+							<p><strong>INGRESO MEDIANTE PRESENTACION DE TRABAJO</strong></p>
+							<p>
+								El interesado deberá enviar a las oficinas de la AMD vía fax o electrónica, su trabajo en extenso y resumen (en formato word), junto con la documentación requerida, al igual que enviarlo al correo de la SNDL: contacto@sdnl.org.mx 
+							</p>
+							<p>
+								Dicho trabajo será revisado por el Comité de Ingreso de ambas sociedades y una vez aprobado se le asignará el espacio para su presentación.
+							</p>
+						</div>
+						<div class="alert alert-info">
+							<strong>Si est&aacute; interesado en ingresar a estas agrupaciones, escr&iacute;banos un correo a <a class="mdl" href="mailto:contacto@sdnl.org.mx">contacto@sdnl.org.mx</a> y con mucho gusto le daremos respuesta.</strong>
+						</div>
+			      	</div>
+			      	<div class="modal-footer">
+			      		<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times-circle" aria-hidden="true"></i> Cerrar</button>
+			      	</div>
+			    </div>
+			 </div>
+		</div>
+		<!-- Scripts -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-100622234-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		<script src="{{asset('js/core.min.js')}}"></script>
+		<script src="{{asset('js/thesaas.min.js')}}"></script>
+		<script src="{{asset('js/script.js')}}"></script>
+		{% block js %}
+		{% endblock %}
+	</body>
+</html>

@@ -1,0 +1,68 @@
+{% extends "layout.html.twig" %}
+{% block header %}
+	<header class="header header-inverse" style="section-inverse" data-parallax="{{asset('images/bg-content-001.jpg')}}">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-12 col-lg-8 offset-lg-2">
+					<h1>Acerca de Nosotros</h1>
+					<p class="fs-20 opacity-70">Sociedad de Dermatología de Nuevo León A.C.</p>
+				</div>
+			</div>
+		</div>
+	</header>
+{% endblock  %}	
+{% block content %}
+	<section class="section bg-grey">
+		<div class="container">
+			<div class="row gap-y">
+				<div class="col-12 col-lg-6 px-50">
+					<h3>Misión</h3>
+					<p>
+						Promover y facilitar la profundización del conocimiento, la investigación, la enseñanza y el aprendizaje continuo en todos los campos de la Dermatología en Nuevo León y sus áreas de influencia.  Buscando que repercuta en el mejoramiento de la salud dermatológica de la Sociedad en general.
+					</p>
+					<h3>Visión</h3>
+					<p>
+						Ser la Asociación Médica Dermatológica Mexicana más vanguardista, innovadora y colaborativa del País.  Ser referencia nacional e internacional para asociaciones Médicas y Dermatológicas.
+					</p>
+					<h3>Valores</h3>
+					<p>
+						Respeto, Honestidad y Servicio.
+					</p>
+					<h3>Objetivo</h3>
+					<p>
+						Contribuir a la excelencia en educación Medica continua de sus miembros asociados y afiliados mediante la realización de eventos científicos académicos y culturales de calidad.
+					</p>
+				</div>
+				<div class="col-12 col-lg-6 px-50 align-self-center">
+					<img src="{{asset('images/derma-stock-001.jpg')}}" class="img-fluid img-circle overflow-hidden" data-aos="fade-left">
+				</div>
+			</div>
+			<div class="row gap-y">
+				<div class="col-12 col-lg-6 px-50 align-self-center">
+					<img src="{{asset('images/derma-stock-002.jpg')}}" class="img-fluid img-circle overflow-hidden" data-aos="fade-right">
+				</div>
+				<div class="col-12 col-lg-6 px-50">
+					<h3>Objetivos Secundarios</h3>
+					<p>
+						&bull; Otorgar aval a eventos académicos científicos.<br/>
+						&bull; Contribuir a la sana fraternización de sus miembros.<br/>
+						&bull; Defender los intereses de sus agremiados.<br/>
+						&bull; Ofrecer peritos cuando sean requeridos por ley.<br/>
+						&bull; Promover y participar en eventos, programas y proyectos de Asistencia Social.<br/>
+						&bull; Promover la educación dermatología de la sociedad en general, difundiendo la salud y los buenos hábitos cutáneos.<br/>
+						&bull; Promover el reconocimiento de la especialidad por la sociedad en general.<br/>
+						&bull; Promover en la sociedad la prevención y la detección oportuna de las afecciones dermatológicas que se benefician de estas acciones.<br/>
+						&bull; Promover el reconocimiento de la especialidad y de los asociados de la SDNL por el gremio médico local, nacional e internacional.<br/>
+						&bull; Promover la interacción con las sociedades de especialidades médicas afines o complementarias.<br/>
+						&bull; Promover la educación de postgrado de calidad fomentando la participación de los residentes de la especialidad en las sesiones académicas y contribuyendo al mejoramiento de los programas educativos locales.<br/>
+						&bull; Promover el adiestramiento y la capacitación en nuevas tecnologías dermatológicas.<br/>
+						&bull; Estimular la educación continua de calidad de los residentes y dermatólogos jóvenes con incentivos que les ayuden a alcanzar sus metas académicas.<br/>
+						&bull; Promover la divulgación científica vanguardista y de calidad a través de publicaciones científicas por sus miembros.
+						&bull; Promover la investigación dermatológica de calidad. <br/>
+						&bull; Vigilar todo lo que se relacione con el ejercicio y las buenas prácticas clínicas de la especialidad en Dermatología.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

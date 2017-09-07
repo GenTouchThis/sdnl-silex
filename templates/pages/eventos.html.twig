@@ -1,0 +1,158 @@
+{% extends "layout.html.twig" %}
+{% block header %}
+	<header class="header header-inverse"  style="section-inverse" data-parallax="{{asset('images/bg-content-001.jpg')}}">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-12 col-lg-8 offset-lg-2">
+					<h1>Eventos</h1>
+					<p class="fs-20 opacity-70">Sociedad de Dermatología de Nuevo León A.C.</p>
+				</div>
+			</div>
+		</div>
+	</header>
+{% endblock  %}	
+{% block content %}
+	<section class="section bg-grey">
+		<div class="container">
+			<div class="row gap-y justify-content-center">
+				<div class="col-4 text-center">
+					<h3>Próximos Eventos</h3>
+				</div>
+			</div>
+			<div class="row gap-y">
+				<div class="col-12 px-50">
+					<div class="table-responsive event">
+						<table class="table table-bordered table-striped text-left">
+							<tr>
+								<th width="12%">Fecha (2017)</th>
+								<th width="9%">Hora</th>
+								<th>Evento</th>
+								<th>Lugar</th>
+								<th>Conferencista</th>
+							</tr>
+							<tr>
+								<td class="event-td2">Junio 1</td>
+								<td class="event-td3">7:00 pm</td>
+								<td class="event-td3">3ª sesión académica mensual: Sesión Conjunta con la SMD</td>
+								<td class="event-td3">Hotel Quinta Real</td>
+								<td class="event-td3">Dr. Roberto Arenas / Trabajos de Ingreso</td>
+							</tr>
+							<tr>
+								<td class="event-td2">Junio 2 </td>
+								<td class="event-td3">9:00 pm</td>
+								<td class="event-td3">Desayuno Taller Tegor Laboratorios</td>
+								<td class="event-td3">Hotel Safi Valle </td>
+								<td class="event-td3">María Ángeles Lastra Oraa Asesora Internacional Tegoder Cosmetics</td>
+							</tr>
+							<tr>
+								<td class="event-td">Junio 19</td>
+								<td>7:30 pm</td>
+								<td>Día del Padre </td>
+								<td>Magma Towers</td>
+								<td>Sociedad de Parrilleros</td>
+							</tr>
+							<tr>
+								<td class="event-td">Julio 13</td>
+								<td>7:30 pm</td>
+								<td>4ª sesión académica mensual</td>
+								<td>Hotel Quinta Real</td>
+								<td>Suneel Chilukuri, MD </td>
+							</tr>
+							<tr>
+								<td class="event-td">Julio 14</td>
+								<td>9:00 am </td>
+								<td>Taller BTL</td>
+								<td>Por Definir</td>
+								<td>Suneel  Chilukuri, MD</td>
+							</tr>
+							<tr>
+								<td class="event-td">Agosto 3</td>
+								<td>7:30 pm</td>
+								<td>5ª sesión académica mensual: Sesión Conjunta con la AMD</td>
+								<td>Hotel Quinta Real</td>
+								<td>Dr. John Gaviria/Trabajos de Ingreso</td>
+							</tr>
+							<tr>
+								<td class="event-td">Septiembre 7</td>
+								<td>7:30 pm</td>
+								<td>6ª sesión académica mensual</td>
+								<td>Hotel Quinta Real</td>
+								<td>Johannes F. Dayrit, MD</td>
+							</tr>
+							<tr>
+								<td class="event-td">Septiembre 9</td>
+								<td>8:30 am</td>
+								<td>Taller/desayuno: Jeisys</td>
+								<td>Hotel Quinta Real</td>
+								<td>Johannes F. Dayrit, MD</td>
+							</tr>
+						</table>
+						<!--
+						<table class="table table-bordered table-striped">
+							<tr>
+								<th>Fecha y Hora</th>
+								<th>Curso</th>
+								<th>Lugar</th>
+							</tr>
+							<tr>
+								<td class="event-td">
+									<strong>3 de Mayo</strong><br/> 
+									18:00 Hrs
+								</td>
+								<td class="event-td2">
+									Curso de Tricología y Tricoscopía<br/>
+									Por: Dra.Cristina Serrano, Dra. Nelly Espinoza y Dr. Roger González
+								</td>
+								<td class="event-td2">
+									Auditorio de Educación Médica Continua de la UANL
+								</td>
+							</tr>
+							<tr>
+								<td class="event-td">
+									<strong>4 de mayo</strong><br/> 
+									19:30 Hrs
+								</td>
+								<td class="event-td2">
+									Curso de Tricología y Tricoscopía<br/>
+									Por: Dra.Cristina Serrano, Dra. Nelly Espinoza
+								</td>
+								<td class="event-td2">
+									Salón Ejecutivo del Hotel Quinta Real
+								</td>
+							</tr>
+							<tr>
+								<td class="event-td">
+									<strong>1 de junio</strong><br/> 
+									19:30 Hrs
+								</td>
+								<td class="event-td2">
+									Requisitos de ingreso para la Sociedad Mexicana de Dermatología y a la Sociedad de Dermatología de Nuevo León
+								</td>
+								<td class="event-td2">
+									Gran Salón del Hotel Quinta Real
+								</td>
+							</tr>
+						</table>
+						-->
+					</div>
+					<div class="divider-sm"></div>
+				</div>
+				<div class="col-md-12 text-center">
+						<div class="alert alert-info text-center">
+							<strong><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Aviso Importante: </strong> Conozca los Requisitos para ser parte de la SMD y SDNL
+							<button type="button" class="btn btn-info" data-toggle="modal" data-target="#mainModal">
+							 	<i class="fa fa-eye" aria-hidden="true"></i> Ver Requisitos de Ingreso SMD - SDNL
+							</button>
+						</div>
+						<h3>Información Extra - Descargables</h3>
+						<a href="{{asset('pdf/Formato-Ingreso-SDNL.pdf')}}" target="_blank" class="btn btn-success">
+							<i class="fa fa-file-pdf-o"></i> Descargar Formato de Ingreso SDNL PDF
+						</a>
+						<a href="{{asset('pdf/SMDAC-FORMATO-PARA-INGRESO.pdf')}}" target="_blank" class="btn btn-success">
+							<i class="fa fa-file-pdf-o"></i> Descargar Formato de Ingreso SMDAC PDF
+						</a>
+					</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

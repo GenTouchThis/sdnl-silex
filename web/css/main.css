@@ -1,0 +1,193 @@
+
+body, html {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+
+.topbar-nav .nav-link {
+	font-family: 'Oswald', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	opacity: .5;
+	letter-spacing: 1px;
+}
+
+.topbar-nav .nav-link.active {
+    font-weight: 400;
+}
+
+.nav-hero .nav-link {
+	font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.scroll-top {
+    line-height: 50px;
+    font-size: 25px;
+    background-color: #00BFA5;
+}
+
+.profile{
+	border: 2px solid #FFF;
+	-webkit-box-shadow: 0px 0px 6px 1px rgba(207,207,207,1);
+	-moz-box-shadow: 0px 0px 6px 1px rgba(207,207,207,1);
+	box-shadow: 0px 0px 6px 1px rgba(207,207,207,1);
+	width: 280px;
+	margin-bottom: 30px;
+}
+
+.img-circle {
+	border: 2px solid #FFF;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 6px 1px rgba(207,207,207,1);
+	-moz-box-shadow: 0px 0px 6px 1px rgba(207,207,207,1);
+	box-shadow: 0px 0px 6px 1px rgba(207,207,207,1);
+	margin-bottom: 30px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.acqva {
+	color: #00796B;
+}
+
+/*                Marko Styles 
+============================================= */
+
+/*     Eventos
+====================*/
+
+#tf-eventos h3{
+	text-align: center;
+}
+
+.event {
+	font-size: 14px;
+
+}
+/* Color Verde-----*/
+/*
+.event th {
+	background-color: #009688;
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.event-td {
+	background-color: #80CBC4;
+	color: #455A64;
+	font-weight: 600;
+	text-align: center;
+}
+.event-td2 {
+	background-color: #E0F2F1;
+	color: #455A64;
+	font-weight: 400;
+}
+*/ 
+/* Color Morado */
+
+.event th {
+	background-color: #7B1FA2;
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.event-td {
+	background-color: #AB47BC;
+	color: #FFF;
+	font-weight: 600;
+	text-align: center;
+}
+
+.event-td2 {
+	background-color: #CE93D8;
+	color: #455A64;
+	font-weight: 400;
+}
+
+.event-td3 {
+	background-color: #F3E5F5;
+	color: #607D8B;
+	font-weight: 400;
+}
+
+/*    Actividades
+=====================*/
+
+
+.crono {
+	font-size: 14px;
+
+}
+.crono th {
+	background-color: #9C27B0;
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.cronotd {
+	background-color: #BA68C8;
+	color: #fff;
+	font-weight: 600;
+}
+
+.cronotd1 {
+	background-color: #BA68C8;
+	color: #fff;
+	font-weight: 600;
+}
+
+.cronotd2 {
+	background-color: #E1BEE7;
+	color: #455A64;
+	font-weight: 400;
+}
+
+.cronotd3 {
+	background-color: #F3E5F5;
+	color: #455A64;
+	font-weight: 400;
+}
+
+a.mdl:link, a.mdl:visited{
+	color: #00796B;
+	font-weight: bold;
+	text-transform: none;
+}
+
+a.mdl:hover{
+	color: #26A69A;
+}
+
+.bg-teal{
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.close2{
+	color: black;
+}
+
+
+/*            End Marko Styles 
+============================================= */
