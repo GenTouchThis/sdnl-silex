@@ -28,13 +28,22 @@ $app->get('/profesores', function () use ($app) {
     return $app['twig']->render('pages/profesores.html.twig', array());
 })->bind('profesores');
 
+$app->get('/sesiones', function () use ($app) {
+    return $app['twig']->render('pages/sesiones.html.twig', array());
+})->bind('sesiones');
+
+$app->get('/regioderma2018', function () use ($app) {
+    return $app['twig']->render('pages/regioderma2018.html.twig', array());
+})->bind('regioderma2018');
+
+/*
 $app->get('/eventos', function () use ($app) {
     return $app['twig']->render('pages/eventos.html.twig', array());
 })->bind('eventos');
 
 $app->get('/actividades', function () use ($app) {
     return $app['twig']->render('pages/actividades.html.twig', array());
-})->bind('actividades');
+})->bind('actividades'); */
 
 $app->get('/contacto', function () use ($app) {
     return $app['twig']->render('pages/contacto.html.twig', array());
