@@ -129,6 +129,11 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: 400;
 }
 
+.event-expired {
+	background-color: #F3E5F5;
+	color: #B0BEC5;
+}
+
 /*    Actividades
 =====================*/
 
