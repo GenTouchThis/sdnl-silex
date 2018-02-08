@@ -32,9 +32,9 @@ $app->get('/sesiones', function () use ($app) {
     return $app['twig']->render('pages/sesiones.html.twig', array());
 })->bind('sesiones');
 
-$app->get('/regioderma2018', function () use ($app) {
-    return $app['twig']->render('pages/regioderma2018.html.twig', array());
-})->bind('regioderma2018');
+$app->get('/regioderma2019', function () use ($app) {
+    return $app['twig']->render('pages/regioderma2019.html.twig', array());
+})->bind('regioderma2019');
 
 /*
 $app->get('/eventos', function () use ($app) {
