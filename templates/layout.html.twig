@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Colegio Médico de Dermatológos de Nuevo León A.C.</title>
+		<title>Colegio de Médicos Dermatológos de Nuevo León, A.C.</title>
 		<meta name="description" content="Colegio Médico de Dermatológos de Nuevo León A.C." />
 		<meta name="keywords" content="CMDNL,Colegio Médico de Dermatológos de Nuevo León A.C., sdnl,nuevo león,Sociedad de Dermatología de Nuevo León" />
 		<meta name="author" content="warptech.mx" />
@@ -11,8 +11,6 @@
 		<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
 		<meta http-equiv="Pragma" content="no-cache" />
 		<meta http-equiv="Expires" content="Mon, 26 Jun 1997 05:00:00 GMT" />
-
-		<title>Trello</title>
 
 		<!-- Styles -->
 		<link href="{{asset('css/core.min.css')}}" rel="stylesheet">
@@ -49,6 +47,7 @@
 						<li class="nav-item"><a class="nav-link {% if active == 'mesa-directiva' %}active{% endif %}" href="{{url('mesa-directiva')}}">Mesa Directiva</a></li>
 						<li class="nav-item"><a class="nav-link {% if active == 'profesores' %}active{% endif %}" href="{{url('profesores')}}">Profesores</a></li>
 						<li class="nav-item"><a class="nav-link {% if active == 'sesiones' %}active{% endif %}" href="{{url('sesiones')}}">Sesiones</a></li>
+						<li class="nav-item"><a class="nav-link {% if active == 'ingresos' %}active{% endif %}" href="{{url('ingresos')}}">Ingresos</a></li>
 						<li class="nav-item"><a class="nav-link {% if active == 'regioderma2019' %}active{% endif %}" href="{{url('regioderma2019')}}">Regioderma 2019</a></li>
 						<li class="nav-item"><a class="nav-link {% if active == 'contacto' %}active{% endif %}" href="{{url('contacto')}}">Contacto</a></li>
 					</ul>
@@ -73,50 +72,7 @@
 		<div class="modal fade" id="mainModal" tabindex="-1" role="dialog" aria-labelledby="mainModalTitle" aria-hidden="true">
 			 <div class="modal-dialog modal-lg" role="document">
 			 	<div class="modal-content">
-			    	<div class="modal-header bg-teal text-left">
-			    		<i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-			        	<strong>Aviso Importante</strong>
-			        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			        		<span aria-hidden="true">&times;</span>
-			        	</button>
-			    	</div>
-			      	<div class="modal-body">
-			      		<h5>
-			      			REQUISITOS DE INGRESO | Agosto 3, 2017
-			      		</h5>
-						<p>
-							<strong>Academia Mexicana de Dermatología A.C. / Sociedad de Dermatología de Nuevo León A.C.<br/>
-							Sesión Conjunta.</strong><br/>
-						</p>
-						<div class="alert alert-success">
-							<strong>Se puede ingresar a una o ambas sociedades presentando un solo trabajo de ingreso.</strong>
-						</div>
-						<p><strong>DOCUMENTACION REQUERIDA PARA AMBAS FORMAS DE INGRESO</strong></p>
-						<ul>
-							<li>Carta solicitud de ingreso dirigida al presidente(s) de la Sociedad(es) a la(s) que desea ingresar (una por Sociedad).</li>
-							<li>Currículo breve del solicitante (Dos cuartillas aproximadamente)</li>
-							<li>Dos cartas aval de miembros numerarios o vitalicios de la AMD y/o de la SDNL.</li>
-							<li>Titulo de Médico Cirujano inscrito ante la Dirección General de Profesiones de la SEP</li>
-							<li>Cédula profesional y cédula de especialista</li>
-							<li>Diploma de la Especialidad, avalado por la institución correspondiente y/o la Universidad que dio el posgrado</li>
-							<li>Certificación vigente expedida por el Consejo Mexicano de Dermatología</li>
-						</ul>
-						<div class="well">
-							<p><strong>INGRESO MEDIANTE PRESENTACION DE TRABAJO</strong></p>
-							<p>
-								El interesado deberá enviar a las oficinas de la AMD vía fax o electrónica, su trabajo en extenso y resumen (en formato word), junto con la documentación requerida, al igual que enviarlo al correo de la SNDL: contacto@sdnl.org.mx 
-							</p>
-							<p>
-								Dicho trabajo será revisado por el Comité de Ingreso de ambas sociedades y una vez aprobado se le asignará el espacio para su presentación.
-							</p>
-						</div>
-						<div class="alert alert-info">
-							<strong>Si est&aacute; interesado en ingresar a estas agrupaciones, escr&iacute;banos un correo a <a class="mdl" href="mailto:contacto@sdnl.org.mx">contacto@sdnl.org.mx</a> y con mucho gusto le daremos respuesta.</strong>
-						</div>
-			      	</div>
-			      	<div class="modal-footer">
-			      		<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times-circle" aria-hidden="true"></i> Cerrar</button>
-			      	</div>
+			    	<img src="{{ asset('images/dia-madres.png')}}">
 			    </div>
 			 </div>
 		</div>

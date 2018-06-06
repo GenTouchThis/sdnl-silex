@@ -1,0 +1,445 @@
+{% extends "layout.html.twig" %}
+
+{% block title 'Bienvenida' %}
+
+{% block header %}
+        <header class="header header-inverse h-fullscreen p-0 overflow-hidden" data-parallax="{{asset('img/regio-bg001.jpg')}}">
+            <div class="container">
+
+                <div class="row h-full">
+                    <div class="col-12 align-self-center text-center text-lg-left">
+                        <p>
+                            <img src="{{asset('img/regiodermaN-logo-xl.png')}}" width="90%" alt="..." data-aos="slide-up" data-aos-offset="0">
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+{% endblock %}
+
+{% block content %}
+			<!--
+            |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+            | More Than You Think
+            |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+            !-->
+            <section class="section pb-0 overflow-hidden" id="section-sede">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 col-md-6 text-center">
+                            <img class="mb-90" src="{{asset('img/regioderma-001.jpg')}}" alt="..." data-aos="slide-up">
+                        </div>
+
+
+                        <div class="col-12 col-md-6 align-self-center pb-70 text-center">
+                        	<img class="mb-40" src="{{asset('img/regioderma-logo-sm.png')}}" alt="Regioderma 2019">
+                            <h3>Sede y Fecha</h3>
+                            <p>
+                            	Pre-Congreso: 14 de Marzo<br/>
+                            	Congreso: 15 al 17 de Marzo
+                            </p>
+
+                            <br><br>
+                            <img class="mb-40" src="{{asset('img/monterrey-convention.jpg')}}" alt="Monterrey Convention Center">
+                            <img class="mb-40" width="250" src="{{asset('img/sedes_pabellon.png')}}" alt="Monterrey Convention Center">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--
+            |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+            | Features
+            |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+            !-->
+            <section class="section section-inverse pb-0 overflow-hidden" style="background-color: #546E7A">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-12 align-self-center text-center hidden-sm-down">
+                            <img class="mb-80" src="{{asset('img/regioderma-002.jpg')}}" alt="..." data-aos="fade-up">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--
+            |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+            | Screenshots
+            |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+            !-->
+            <section class="section" id="section-galeria">
+                <div class="container">
+                    <header class="section-header">
+                        <small>Galería Sede</small>
+                        <h2>Monterrey Convention Center</h2>
+                        <hr>
+                        <p class="lead">
+                        	&middot; Más de 4,000 m2<br/>
+							&middot; + de 8 salones y terraza<br/>
+							&middot; Capacidad hasta para 3,000 asistentes
+                        </p>
+                    </header>
+
+
+                    <div class="swiper-container swiper-button-circular" data-slides-per-view="3" data-space-between="50" data-centered-slides="true">
+                        <div class="swiper-wrapper pb-0">
+
+                            <div class="swiper-slide"><img src="{{asset('img/convention-001.jpg')}}" alt="Monterrey Convention Center"></div>
+                            <div class="swiper-slide"><img src="{{asset('img/convention-002.jpg')}}" alt="Monterrey Convention Center"></div>
+                            <div class="swiper-slide"><img src="{{asset('img/convention-003.jpg')}}" alt="Monterrey Convention Center"></div>
+
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <!--
+            |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+            | Team
+            |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+            !-->
+            <section class="section bg-gray" id="section-programa">
+                <div class="container">
+                    <header class="section-header">
+                        <small>Regioderma 2019</small>
+                        <h2>Programa</h2>
+                        <hr>
+                        <p class="lead">
+							<strong>Profesores internacionales invitados:</strong><br />
+							Rox R. Anderson, Michael Gold, Suneel Chilukuri, Amit Pandya (USA), Christine Dierickx (Bélgica), Guiseppe Argenziano (Italia), Susana Puig, Cristina Serrano (España), Doris Hexsel (Brasil), Moshe Lapidot (Isrrael), John Gaviria (Colombia) entre otros.
+                        </p>
+                        <p class="lead">
+                        	&middot; Más de <strong>35 Profesores nacionales invitados</strong><br />
+							&middot; Más de <strong>400 Dermatólogos y residentes asistentes</strong> (fuera de Monterrey)<br />
+							&middot; 150 Miembros del Colegio Médico de Dermatólogos de Nuevo León, AC<br />
+							&middot; Todos los <strong>centros de enseñanza del país</strong> representados en un mismo evento
+                        </p>
+                    </header>
+
+
+                    <div class="row gap-y text-center p-30">
+                        <div class="col-6 col-lg-3" data-aos="fade-in">
+                            <a href="#">
+                                <img class="rounded-circle" src="{{asset('img/avatar/rox.jpg')}}" alt="...">
+                            </a>
+                            <br><br>
+                            <h6 class="fw-600">Rox R. Anderson</h6>
+                            <img src="{{ asset ('img/flags/usa.jpg')}}" width="20"> USA
+                        </div>
+
+
+                        <div class="col-6 col-lg-3" data-aos="fade-in" data-aos-delay="150">
+                            <a href="#">
+                            <img class="rounded-circle" src="{{asset('img/avatar/gold.jpg')}}" alt="...">
+                            </a>
+                            <br><br>
+                            <h6 class="fw-600">Michael Gold</h6>
+                            <img src="{{ asset ('img/flags/usa.jpg')}}" width="20"> USA
+                        </div>
+
+
+                        <div class="col-6 col-lg-3" data-aos="fade-in" data-aos-delay="300">
+                            <a href="#">
+                                <img class="rounded-circle" src="{{asset('img/avatar/Chilukuri.jpg')}}" alt="...">
+                            </a>
+                            <br><br>
+                            <h6 class="fw-600">Suneel Chilukuri</h6>
+                            <img src="{{ asset ('img/flags/usa.jpg')}}" width="20"> USA
+                        </div>
+
+
+                        <div class="col-6 col-lg-3" data-aos="fade-in" data-aos-delay="450">
+                            <a href="#">
+                                <img class="rounded-circle" src="{{asset('img/avatar/pandya.jpg')}}" alt="...">
+                            </a>
+                            <br><br>
+                            <h6 class="fw-600">Amit Pandya</h6>
+                            <img src="{{ asset ('img/flags/usa.jpg')}}" width="20"> USA
+                        </div>
+                    </div>
+
+                    <div class="row gap-y text-center p-30">
+                        <div class="col-6 col-lg-3" data-aos="fade-in">
+                            <a href="#">
+                                <img class="rounded-circle" src="{{asset('img/avatar/christine.jpg')}}" alt="...">
+                            </a>
+                            <br><br>
+                            <h6 class="fw-600">Christine Dierickx</h6>
+                            <img src="{{ asset ('img/flags/belgica.jpg')}}" width="20"> BELGICA
+                        </div>
+
+
+                        <div class="col-6 col-lg-3" data-aos="fade-in" data-aos-delay="150">
+                            <a href="#">
+                            <img class="rounded-circle" src="{{asset('img/avatar/giuseppe.jpg')}}" alt="...">
+                            </a>
+                            <br><br>
+                            <h6 class="fw-600">Guiseppe Argenziano</h6>
+                            <img src="{{ asset ('img/flags/italia.jpg')}}" width="20"> ITALIA
+                        </div>
+
+
+                        <div class="col-6 col-lg-3" data-aos="fade-in" data-aos-delay="300">
+                            <a href="#">
+                                <img class="rounded-circle" src="{{asset('img/avatar/susana.jpg')}}" alt="...">
+                            </a>
+                            <br><br>
+                            <h6 class="fw-600">Susana Puig</h6>
+                            <img src="{{ asset ('img/flags/spain.jpg')}}" width="20"> ESPAÑA
+                        </div>
+
+
+                        <div class="col-6 col-lg-3" data-aos="fade-in" data-aos-delay="450">
+                            <a href="#">
+                                <img class="rounded-circle" src="{{asset('img/avatar/cristina.jpg')}}" alt="...">
+                            </a>
+                            <br><br>
+                            <h6 class="fw-600">Cristina Serrano</h6>
+                            <img src="{{ asset ('img/flags/spain.jpg')}}" width="20"> ESPAÑA
+                        </div>
+                    </div>
+
+                    <div class="row gap-y justify-content-md-center text-center p-30">
+                        <div class="col-6 col-lg-3" data-aos="fade-in">
+                            <a href="#">
+                                <img class="rounded-circle" src="{{asset('img/avatar/doris.jpg')}}" alt="...">
+                            </a>
+                            <br><br>
+                            <h6 class="fw-600">Doris Hexsel</h6>
+                            <img src="{{ asset ('img/flags/brasil.jpg')}}" width="20"> BRASIL
+                        </div>
+
+
+                        <div class="col-6 col-lg-3" data-aos="fade-in" data-aos-delay="150">
+                            <a href="#">
+                            <img class="rounded-circle" src="{{asset('img/avatar/moshe.jpg')}}" alt="...">
+                            </a>
+                            <br><br>
+                            <h6 class="fw-600">Moshe Lapidot</h6>
+                            <img src="{{ asset ('img/flags/israel.jpg')}}" width="20"> ISRAEL
+                        </div>
+
+
+                        <div class="col-6 col-lg-3" data-aos="fade-in" data-aos-delay="300">
+                            <a href="#">
+                                <img class="rounded-circle" src="{{asset('img/avatar/gaviria.jpg')}}" alt="...">
+                            </a>
+                            <br><br>
+                            <h6 class="fw-600">John Gaviria</h6>
+                            <img src="{{ asset ('img/flags/colombia.jpg')}}" width="20"> COLOMBIA
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!--
+            |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+            | Download Now
+            |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+            !-->
+            <section class="section section-inverse py-120" data-parallax="{{asset('img/regioderma-003.jpg')}}" data-overlay="4" id="section-expo">
+                <div class="container">
+
+                    <div class="section-dialog text-center" data-aos="zoom-in" data-aos-duration="1000">
+                        <p>Exposición</p>
+                       <hr class="w-70">
+                        <h2>Costos</h2>
+                        <h4>Zona A</h4>
+                        <table class="table table-stripped">
+                            <tr>
+                                <th>Stands</th>
+                                <th>Costo</th>
+                            </tr>
+                            <tr>
+                                <td>3x2 mts. (6m2)</td>
+                                <td>$50,000.00</td>
+                            </tr>
+                            <tr>
+                                <td>3x3 mts. (9m2)</td>
+                                <td>$50,000.00</td>
+                            </tr>
+                            <tr>
+                                <td>6x6 mts. (36m2)</td>
+                                <td>$150,000.00</td>
+                            </tr>
+                        </table>
+
+                        <h4>Zona B</h4>
+                        <table class="table table-stripped">
+                            <tr>
+                                <th>Stands</th>
+                                <th>Costo</th>
+                            </tr>
+                            <tr>
+                                <td>3x2 mts. (6m2)</td>
+                                <td>$35,000.00</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <strong>El costo incluye:</strong><br />
+                            &middot; Delimitación de espacio con energía eléctrica<br />
+                            &middot; Zona A: 03 becas al 100% para foráneos, residentes de Dermatología o Dermatólogos jóvenes (máximo 05 años de haber egresado)<br />
+                            &middot; Zona B: 02 becas al 100% para foráneos, residentes de Dermatología o Dermatólogos jóvenes (máximo 05 años de haber egresado)
+                        </p>
+                        <p>
+                            <small><strong>Precios más el 16% de IVA</strong></small>
+                        </p>
+                        <hr class="w-50">
+
+                        <div class="text-center gap-multiline-items-2 my-30">
+                            <a class="btn btn-lg btn btn-outline btn-success" href="{{asset('img/plano.jpg')}}" data-provide="lightbox">Ver Plano de Exposición</a> <a class="btn btn-round btn-success" href="{{asset('pdf/formato-reserva-expo.pdf')}}" data-provide="lightbox"><i class="ti-download"></i> Descargar Formato de Reservación Expo</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!--
+            |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+            | Reviews
+            |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+            !-->
+            <section class="section" id="section-inscripciones">
+                <div class="container-fluid">
+                    <header class="section-header">
+                    	<img src="{{asset('img/cdnl-shield.png')}}" width="120" alt="Regioderma 2019" ><br />
+                        <small>Regioderma 2019</small>
+                        <h2>Inscripciones</h2>
+                        <hr>
+                        <p class="lead">
+                        	*Cuotas completas hasta 2018 y carta compromiso de asistencia y colaboración<br/>
+                        	Cuotas más el 16% de IVA
+                        </p>
+                    </header>
+                    <div class="col-12 col-md-6 text-center offset-md-3">
+						<h3>Socios (Al corriente): </h3>
+						<table class="table table-bordered table-hover table-striped">
+						  <tbody>
+						    <tr>
+						      <th>Fecha</th>
+						      <th>Cuota</th>
+						    </tr>
+						    <tr>
+						      <td>Hasta el 14 de marzo 2018</td>
+						      <td>Sin costo*</td>
+						    </tr>
+						    <tr>
+						      <td>Hasta el 31 de Diciembre 2018</td>
+						      <td>$1,000.00</td>
+						    </tr>
+						    <tr>
+						      <td>Del 1 de Enero al 9 de marzo 2019</td>
+						      <td>$2,000.00</td>
+						    </tr>
+						    <tr>
+						      <td>Inscripciones en sitio </td>
+						      <td>$3,000.00</td>
+						    </tr>
+						  </tbody>
+						</table>
+						<h3>No Socios</h3>
+						<table class="table table-bordered table-hover table-striped">
+						  <tbody>
+						    <tr>
+						      <th>Fecha</th>
+						      <th>Cuota</th>
+						    </tr>
+						    <tr>
+						      <td>Hasta el 31 de Diciembre 2018</td>
+						      <td>$2,000.00</td>
+						    </tr>
+						    <tr>
+						      <td>Del 1 de Enero al 9 de marzo 2019</td>
+						      <td>$3,000.00</td>
+						    </tr>
+						    <tr>
+						      <td>Inscripciones en sitio </td>
+						      <td>$4,000.00</td>
+						    </tr>
+						  </tbody>
+						</table>
+						<h3>Residentes</h3>
+						<table class="table table-bordered table-hover table-striped">
+						  <tbody>
+						    <tr>
+						      <th>Fecha</th>
+						      <th>Cuota</th>
+						    </tr>
+						    <tr>
+						      <td>Hasta el 9 de marzo 2019</td>
+						      <td>$1,000.00</td>
+						    </tr>
+						    <tr>
+						      <td>Inscripciones en sitio </td>
+						      <td>$1,500.00</td>
+						    </tr>
+						  </tbody>
+						</table>
+						<hr />
+						<a class="btn btn-lg btn-success ml-8 hidden-sm-down" href="#">¡Registro Próximamente!</a>
+					</div>
+            </section>
+
+            <section class="section" id="section-hospedaje" style="background-color: #ECEFF1">
+                <div class="container-fluid">
+                    <header class="section-header">
+                        <img src="{{asset('img/cdnl-shield.png')}}" width="120" alt="Regioderma 2019" ><br />
+                        <small>Regioderma 2019</small>
+                        <h2>Hospedaje</h2>
+                        <hr>
+                        <h4>
+                            Cuotas y Hoteles disponibles próximamente
+                        </h4>
+                    </header>
+            </section>
+
+            <section class="section section-inverse" data-parallax="{{asset('img/regioderma-004.jpg')}}" data-overlay="4" id="section-contacto">
+            	<div class="container">
+            		<div class="col-12 col-md-6 offset-md-3">
+            			<header class="section-header">
+            				<img src="{{asset('img/cdnl-shield.png')}}" width="120" alt="Regioderma 2019" >
+            				<br />
+                            <small>Regioderma 2019</small>
+                            <h2>Contacto</h2>
+                            <hr>
+                        </header>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 text-center">
+                            <h3>Exposición</h3>
+                            <p class="lead">
+                                <strong>Viridiana Tellechea</strong><br />
+                                <a href="mailto:grupos@eventagemexico.com">grupos@eventagemexico.com</a><br />
+                                Tel. 55 55230628 ext. 106 <br />
+                                <img src="{{asset ('img/eventage-logo.png')}}">
+                            </p>
+                		</div>
+                        <div class="col-12 col-md-6 text-center">
+                            <h3>Información</h3>
+                            <p class="lead">
+                                <strong>Betzabet Hernández</strong><br />
+                                <a href="mailto:grupos2@eventagemexico.com">grupos2@eventagemexico.com</a><br />
+                                Tel. 55 55230628 ext. 108 <br />
+                                <img src="{{asset ('img/eventage-logo.png')}}">
+                            </p>
+                        </div>
+                    </div>
+            	</div>
+            </section>
+{% endblock %}
